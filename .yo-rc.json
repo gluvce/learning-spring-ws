@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "ro",
+      "ru"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.sgaraba.library",
+    "packageFolder": "com/sgaraba/library",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": false,
+    "skipServer": false,
+    "testFrameworks": [
+      "protractor"
+    ],
+    "websocket": false,
+    "baseName": "library",
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "buildTool": "maven",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "jhipsterVersion": "6.2.0",
+    "skipUserManagement": false,
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "serverPort": "8080",
+    "jwtSecretKey": "OTAyYjk5NDBmMzE0YmI4YzI3NzYzMjc0NmE3MDI3ZTQ3NzZkN2NmNGYyNzdiOTVjZDc0MzAzYWIwMDhjMWE4OWFmODE4ZTdlNTI5ZWE3ZWJkYjgxYjNmODg2MWIxNzBkYmQ3MGY4YjkxMTg3YjE0YmQ4NTFmOTAxZGM4ZDFjYWY=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": [
+    "Publisher",
+    "Author",
+    "Client",
+    "Book",
+    "BorrowedBook"
+  ]
+}
